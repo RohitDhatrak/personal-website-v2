@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://rohitdhatrak.com", 
   author: "Rohit Dhatrak",
   profile: "https://rohitdhatrak.com",
-  desc: "Rohit Dhatrak's personal website and blog",
+  desc: "I'm Rohit Dhatrak, a software developer with over two years of experience, I focus on developing reliable and efficient backend systems. My expertise lies in Golang, SQL (PostgreSQL), and Redis, allowing me to design optimized data-driven systems.Beyond backend development, I am proficient in cloud technologies (AWS) and containerization (Docker). Additionally, I have full-stack development experience using Node.js, JavaScript, and React.js, enabling me to create  comprehensive solutions that integrate robust backend architecture with dynamic front-end experiences. I excel in fast-paced environments where I can tackle complex problems, build perfomant systems, and contribute to innovative software solutions. Passionate about continuous learning and growth, I am always exploring new technologies and following my curiosity. Let's connect and build something great together!",
   title: "Rohit Dhatrak",
   // ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
