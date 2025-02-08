@@ -1,22 +1,22 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  website: "https://rohitdhatrak.com", 
+  author: "Rohit Dhatrak",
+  profile: "https://rohitdhatrak.com",
+  desc: "Rohit Dhatrak's personal website and blog",
+  title: "Rohit Dhatrak",
+  // ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
-  postPerPage: 3,
+  postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-  showArchives: true,
-  editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
-    text: "Suggest Changes",
-    appendFilePath: true,
-  },
+  showArchives: false,
+  // editPost: {
+  //   url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+  //   text: "Suggest Changes",
+  //   appendFilePath: true,
+  // },
 };
 
 export const LOCALE = {
@@ -25,35 +25,41 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: false,
+  enable: true,
   svg: true,
-  width: 216,
-  height: 46,
+  width: 45,
+  height: 10,
 };
 
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/RohitDhatrak",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
   {
-    name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Facebook`,
-    active: true,
-  },
-  {
-    name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
+    name: "X",
+    href: "https://x.com/rohit_dhatrak_",
+    linkTitle: `${SITE.title} on X`,
     active: true,
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.linkedin.com/in/rohitdhatrak/",
     linkTitle: `${SITE.title} on LinkedIn`,
+    active: true,
+  },
+  {
+    name: "Instagram",
+    href: "https://instagram.com/rohit_dhatrak_",
+    linkTitle: `${SITE.title} on Instagram`,
+    active: true,
+  },
+  {
+    name: "YouTube",
+    href: "https://www.youtube.com/channel/UCOmR_eoi2c2iLQND4zZUYSw",
+    linkTitle: `${SITE.title} on YouTube`,
     active: true,
   },
   {
@@ -63,21 +69,15 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
   {
-    name: "X",
+    name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on X`,
+    linkTitle: `${SITE.title} on Facebook`,
     active: false,
   },
   {
     name: "Twitch",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Twitch`,
-    active: false,
-  },
-  {
-    name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on YouTube`,
     active: false,
   },
   {

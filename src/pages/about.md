@@ -3,34 +3,36 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+As a software developer with over two years of experience, I focus on developing reliable and efficient backend systems. My expertise lies in Golang, SQL (PostgreSQL), and Redis, allowing me to design optimized data-driven systems.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Beyond backend development, I am proficient in cloud technologies (AWS) and containerization (Docker). Additionally, I have full-stack development experience using Node.js, JavaScript, and React.js, enabling me to create  comprehensive solutions that integrate robust backend architecture with dynamic front-end experiences.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+I excel in fast-paced environments where I can tackle complex problems, build perfomant systems, and contribute to innovative software solutions. Passionate about continuous learning and growth, I am always exploring new technologies and following my curiosity.
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+Let's connect and build something great together!
+
+<Socials />
 
 ## Tech Stack
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+- Golang
+- SQL (PostgreSQL)
+- Redis
+- NoSQL (DynamoDB, MongoDB)
+- AWS
+- Docker
+- NodeJS
+- JavaScript
+- ReactJS
 
-## Features
+## Experience
 
-Here are certain features of this site.
+- Founding Engineer at [Pice](https://www.linkedin.com/company/picehq/)
+  - SDE 2 | Jun 2024 - Present
+  - SDE 1 | May 2022 - May 2024
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+- Founding Engineer at [Wyzr](https://www.linkedin.com/company/wyzr-in/)
+  - SDE Intern | Jun 2021 - Feb 2022 | 9 months
+    - Utilized Next.js and Chakra UI to develop the reading interface of the application. Used Next.js for its support of pre-rendering, enabling the use of Static Site Generation (SSG) for the primarily static content. 
+    - Implemented responsive design principles to ensure the application rendered well across multiple devices.
+    - Built a sortable nested commenting system from end to end. Used NodeJS and MongoDB in the backend.

@@ -1,6 +1,6 @@
-import satori from "satori";
-import type { CollectionEntry } from "astro:content";
 import { SITE } from "@config";
+import type { CollectionEntry } from "astro:content";
+import satori from "satori";
 import loadGoogleFonts, { type FontOptions } from "../loadGoogleFont";
 
 export default async (post: CollectionEntry<"blog">) => {
@@ -87,9 +87,9 @@ export default async (post: CollectionEntry<"blog">) => {
               </span>
             </span>
 
-            <span style={{ overflow: "hidden", fontWeight: "bold" }}>
+            {/* <span style={{ overflow: "hidden", fontWeight: "bold" }}>
               {SITE.title}
-            </span>
+            </span> */}
           </div>
         </div>
       </div>
