@@ -132,6 +132,20 @@ const structuredData = {
       )
     }
 
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", async () => {
+          const registrations =
+            await navigator.serviceWorker.getRegistrations();
+          for (let registration of registrations) {
+            // Unregister all service workers associated with this domain
+            await registration.unregister();
+            console.log("ServiceWorker unregistered:", registration.scope);
+          }
+        });
+      }
+    </script>
+
     <ViewTransitions />
 
     <script is:inline src="/toggle-theme.js" async></script>
