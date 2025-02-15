@@ -1,5 +1,5 @@
-import satori from "satori";
 import { SITE } from "@config";
+import satori from "satori";
 import loadGoogleFonts, { type FontOptions } from "../loadGoogleFont";
 
 export default async () => {
@@ -66,7 +66,7 @@ export default async () => {
             }}
           >
             <p style={{ fontSize: 72, fontWeight: "bold" }}>{SITE.title}</p>
-            <p style={{ fontSize: 28 }}>{SITE.desc}</p>
+            <p style={{ fontSize: 28 }}>{SITE.ogDesc}</p>
           </div>
 
           <div
