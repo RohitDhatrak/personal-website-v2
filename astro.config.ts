@@ -1,3 +1,4 @@
+import partytown from '@astrojs/partytown';
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
@@ -16,6 +17,11 @@ export default defineConfig({
     react(),
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
+    }),
+    partytown({
+      config: {
+        forward: ["dataLayer.push"],
+      },
     }),
   ],
   markdown: {
