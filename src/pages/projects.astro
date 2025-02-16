@@ -1,0 +1,28 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import { SITE } from "@config";
+import ProjectCard from "@components/ProjectCard";
+import { getAllProjects } from "@utils/getProjects";
+---
+
+<Layout title={`Projects | ${SITE.title}`}>
+	<Header activeNav="projects" />
+	<Main pageTitle="Projects" pageDesc="Some cool stuff that I have built">
+		<ul>
+			{
+				getAllProjects().map(project => (
+					<ProjectCard
+						title={project.title}
+						code={project.code}
+						description={project.description}
+						preview={project.preview}
+					/>
+				))
+			}
+		</ul>
+	</Main>
+	<Footer />
+</Layout>

@@ -9,6 +9,8 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SITE, SOCIALS } from "@config";
+import { getFeaturedProjects } from "@utils/getProjects";
+import ProjectCard from "@components/ProjectCard";
 
 const posts = await getCollection("blog");
 
@@ -17,6 +19,7 @@ const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
+const featuredProjects = getFeaturedProjects();
 ---
 
 <Layout>
@@ -113,6 +116,35 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
       </LinkButton>
     </div>
+
+    {
+      featuredProjects.length > 0 && (
+        <section id="recent-posts">
+          <h2>Featured Projects</h2>
+          <ul>
+            {featuredProjects.map(project => (
+              <ProjectCard
+                title={project.title}
+                description={project.description}
+                code={project.code}
+                preview={project.preview}
+              />
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <div class="all-posts-btn-wrapper">
+      <LinkButton href="/projects/">
+        All Projects
+        <svg xmlns="http://www.w3.org/2000/svg"
+          ><path
+            d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+          ></path>
+        </svg>
+      </LinkButton>
+    </div>
   </main>
 
   <Footer />
@@ -152,6 +184,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply text-2xl font-semibold tracking-wide;
   }
   .all-posts-btn-wrapper {
-    @apply my-8 text-center;
+    @apply mb-8 text-center;
   }
 </style>
