@@ -10,7 +10,7 @@ tags:
   - forwards-compatibility
   - transpilers
   - polyfills
-description: "To understand why we’ll always need transpilers and polyfills we'll need to understand Backwards and Forwards compatibility in JavaScript"
+description: "Understanding what is backwards and forwards compatibility in JavaScript and why we’ll always need transpilers and polyfills"
 ogImage: ../../assets/images/babel-js-cover.png
 ---
 
