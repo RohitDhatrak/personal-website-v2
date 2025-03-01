@@ -2,7 +2,7 @@
 author: Rohit Dhatrak
 pubDatetime: 2025-03-01T10:12:03.284Z 
 modDatetime: 
-title: Building your own ALU
+title: Building your own Arithmetic Logic Unit (ALU)
 featured: false
 draft: false
 tags:
