@@ -6,7 +6,7 @@ title: "Why JavaScript will always need Transpilers and Polyfills"
 featured: false
 draft: false 
 tags:
- - web-development
+  - software-development
 description: "Understanding what is backwards and forwards compatibility in JavaScript and why we’ll always need transpilers and polyfills"
 ogImage: ../../assets/images/babel-js-cover.png
 ---
