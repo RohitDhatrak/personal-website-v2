@@ -6,8 +6,6 @@ title: Time and Space Complexity
 featured: false
 draft: false
 tags:
-  - time-complexity
-  - space-complexity
   - algorithms
 description: What is Time and Space Complexity? What do we mean when we say an algorithm takes log(n) time? 
 ogImage: ../../assets/images/time-complexity.png

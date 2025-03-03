@@ -6,7 +6,7 @@ title: Work at Wyzr
 featured: false
 draft: false 
 tags:
-  - SSG
+  - web-development
 description: This blog is about my journey, the work I have done at wyzr and the things I have learned through that journey.
 ogImage: ../../assets/images/wyzr_pizza_party.png
 ---

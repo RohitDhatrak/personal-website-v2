@@ -6,8 +6,8 @@ title: Building your own Arithmetic Logic Unit (ALU)
 featured: false
 draft: false
 tags:
+  - computer-science
   - nand2tetris
-  - alu
 description: In this post, we will explore fundamental questions about a computer like why do computers use 1s and 0s? What are the building blocks of a computer? How does a computer perform arithmetic operations? We will do this by constructing our own version of an Arithmetic Logic Unit (ALU) from scratch.
 ---
 
