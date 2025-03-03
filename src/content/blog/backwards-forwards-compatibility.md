@@ -53,9 +53,9 @@ This is where the tools come in.
 
 ## Transpilers
 
-A [transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler) will convert a new syntax to an older syntax.
+A transpiler will convert a new syntax to an older syntax.
 
-The most commonly used transpiler is [Babel](https://babeljs.io/).
+The most commonly used transpiler is Babel.
 
 For example, consider the following snippet of code.
 
@@ -86,7 +86,7 @@ We can write newer forms of syntax without worrying about compatibility issues i
 
 ## Polyfills
 
-[Polyfills](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill) (aka shims) are useful when the issue is related to a missing API rather than some new syntax. Let us understand what we mean by this.
+Polyfills (aka shims) are useful when the issue is related to a missing API rather than some new syntax. Let us understand what we mean by this.
 
 Let's assume we want to support an older version of a browser where Array.map() method is not defined.
 
@@ -110,7 +110,7 @@ The if statement will check if the map() method is defined. If not then our cust
 
 Transpilers like Babel will automatically detect which polyfills are needed in our code but sometimes we might have to do it ourselves.
 
-The above example is just for illustration purposes. When you need to manually define polyfills use a robust and well-tested polyfill from an official library like [es-shims](https://github.com/es-shims).
+The above example is just for illustration purposes. When you need to manually define polyfills use a robust and well-tested polyfill from an official library like es-shims.
 
 ## Conclusion
 
@@ -118,4 +118,4 @@ Since JavaScript is not forwards compatible there will always be a gap between t
 
 As developers, we should focus on writing clean and newer syntax that communicates the ideas effectively and let the tools take care of the compatibility.
 
-Shoutout to the [YDKJS](https://github.com/getify/You-Dont-Know-JS) book series by [Kyle Simpson](https://www.linkedin.com/in/getify/) that enabled this blog post.
+Shoutout to the YDKJS book series by Kyle Simpson that enabled this blog post.

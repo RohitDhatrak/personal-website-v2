@@ -27,11 +27,11 @@ Let's connect and build something great together!
 
 ## Experience
 
-- Founding Engineer at [Pice](https://www.linkedin.com/company/picehq/)
+- Founding Engineer at Pice
   - SDE 2 | Jun 2024 - Present
   - SDE 1 | May 2022 - May 2024
 
-- Founding Engineer at [Wyzr](https://www.linkedin.com/company/wyzr-in/)
+- Founding Engineer at Wyzr
   - SDE Intern | Jun 2021 - Feb 2022 | 9 months
     - Utilized Next.js and Chakra UI to develop the reading interface of the application. Used Next.js for its support of pre-rendering, enabling the use of Static Site Generation (SSG) for the primarily static content. 
     - Implemented responsive design principles to ensure the application rendered well across multiple devices.

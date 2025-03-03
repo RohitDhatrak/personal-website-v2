@@ -13,10 +13,6 @@ ogImage: ../../assets/images/time-complexity.png
 
 ## Table of contents
 
-## Frontmatter
-
-This blog was also published in [Analytics Vidhya](https://medium.com/analytics-vidhya/time-and-space-complexity-3b8016c0f3ae)
-
 ## What is time complexity?
 
 Time Complexity could be used to determine if our algorithm will be able to run in the required amount of time by looking at how the runtime grows according to the input. We don't measure the runtime in seconds as it depends on various factors which we don't want to take into consideration. We are interested in the behaviour of an algorithm for a large number of inputs.
@@ -186,5 +182,7 @@ An interesting thing to note is that O(log n) is slower than O(n) for smaller va
 It is same as time complexity but instead of looking at how much more time our algorithm takes as the input grows we look at how much more space does our algorithm consume when we the input grows.
 
 We often optimize for time over space because usually space is not an issue but we want our algorithms to be faster. However, in scenarios like working with embedded systems where we have a memory constrain, space complexity becomes equally important.
+
+This blog was also published in [Analytics Vidhya](https://medium.com/analytics-vidhya/time-and-space-complexity-3b8016c0f3ae)
 
 If you liked the post or have any questions/suggestions feel free to reach out on any of the social media platforms.
