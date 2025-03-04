@@ -52,7 +52,9 @@ const featuredProjects = getFeaturedProjects();
         When I’m not coding, you’ll find me lost in a book, lifting heavy
         things, or chasing new interests.
       </p>
-      <a href="/about">More about me</a>
+      <a href={`/about`} class={`text-base pr-2 group underline-offset-4`}>
+        More about me
+      </a>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
@@ -185,5 +187,8 @@ const featuredProjects = getFeaturedProjects();
   }
   .all-posts-btn-wrapper {
     @apply mb-8 text-center;
+  }
+  a {
+    @apply relative underline decoration-dashed hover:-top-0.5 hover:text-skin-accent focus-visible:p-1;
   }
 </style>
